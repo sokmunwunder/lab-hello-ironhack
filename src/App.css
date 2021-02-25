@@ -1,9 +1,13 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 0;
 }
 
 .App-header {
@@ -11,12 +15,58 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
-  color: #09d3ac;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  text-decoration: none;
+  max-width: 100px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.Components-Styling {
+  background-color: white;
+  color: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 50px;
+}
+
+.Component-Image {
+  width: 100px;
+}
+
+.Component-Headline {
+  font-size: 0.8em;
+  color: black;
+  margin-bottom: 0;
+}
+
+.Component-Paragraph {
+  margin-top: 5px;
+  max-width: 45%;
+  font-size: 0.6em;
+  color: grey;
+  padding-bottom: 50px;
+}
+
+.Ironhack-logo {
+  margin-left: 0;
+}
+
+.Header {
+  padding-left: 50px;
+}
+
+.Paragraph {
+  padding-left: 50px;
+  max-width: 25%;
 }
